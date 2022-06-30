@@ -82,6 +82,7 @@ h2 {
     align-items: center;
     background-color: #FCF75E;
     gap: 30px;
+    padding-bottom: 20px;
 }
 .pic2{
     max-width: 250px;
@@ -97,4 +98,20 @@ h2 {
     color: #89CFF0;
     font-weight: 500;
 }
- 
+.container3 {
+  background-color: #89CFF0;
+  padding: 100px;
+}
+.container3 .quote {
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+}
+.container3 .quote--author {
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: right;
+}
+.container3 .quote--author::before {
+    content: '\2014';
+}
