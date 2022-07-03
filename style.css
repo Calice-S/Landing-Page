@@ -1,5 +1,8 @@
 body {
     margin: 0;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
 }
 
 .nav {
@@ -21,6 +24,7 @@ body {
     margin-left: auto;
     gap: 30px;
     margin-right: 15em;
+    cursor: grab;
 }
 
 a {
@@ -64,6 +68,7 @@ h2 {
     border: none;
     box-shadow: #89CFF0;
     transition: 0.9s;
+    cursor: grab;
 }
 .container1 button:hover{
     background-color: lightblue;
@@ -114,4 +119,49 @@ h2 {
 }
 .container3 .quote--author::before {
     content: '\2014';
+}
+
+.container4 {
+    background-color:#FCF75E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+ 
+}
+.test{
+   background-color: #0066b2;
+   display: flex;
+   gap: 70px;
+   padding: 20px 150px 20px 150px;
+   border-radius: 10px;
+   
+}
+.call-to-action h3 {
+   margin-bottom: 0px;
+   font-size: 18px;
+   color: #FFDF00;
+ 
+}
+.call-to-action .sign-up-text {
+    margin-top: 0px;
+    font-size: 18px;
+    color: #FCF75E;
+}
+.button-sign-up {
+    background-color: #0066b2;
+    height: 50px;
+    width: 100px;
+    border-color: aliceblue;
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 10px;
+    color: #FCF75E;
+    box-shadow: #89CFF0;
+    transition: 0.9s;
+    cursor: grab;
+}
+.button-sign-up:hover{
+    background-color: #d9d7a1;
 }
