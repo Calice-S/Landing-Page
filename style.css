@@ -3,6 +3,7 @@ body {
     padding: 0px;
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
 }
 
 .nav {
@@ -105,7 +106,7 @@ h2 {
 }
 .container3 {
   background-color: #89CFF0;
-  padding: 100px;
+  padding: 80px;
 }
 .container3 .quote {
     text-align: center;
@@ -164,4 +165,10 @@ h2 {
 }
 .button-sign-up:hover{
     background-color: #d9d7a1;
+}
+
+footer {
+    background-color: #0066b2;
+    text-align: center;
+    height: 52px;
 }
